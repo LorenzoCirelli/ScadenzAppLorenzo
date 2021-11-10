@@ -1,0 +1,567 @@
+#body{
+    background-color: #1f1f1f;
+    overflow: hidden;
+}
+#body.over{
+    overflow-y:visible;
+    overflow-x: hidden;
+}
+.wrapper{
+width:100%;
+}
+
+#under{
+overflow: hidden;
+}
+.start{
+overflow: hidden;
+color:black;
+position: absolute;
+top:42%;
+left:42%;
+}
+#visi{
+visibility: hidden;
+}
+#visi.non{
+visibility: visible;
+}
+#startpage{
+background-color: antiquewhite;
+width:fit-content;
+font-size: 150%;
+font-family: monospace;
+
+}
+#under{
+background: linear-gradient(to right,rgb(1, 191, 255),rgb(53, 154, 187));
+width: 100%;
+height: 25%;
+top:0%;
+left:0%;
+position: absolute;
+border-bottom-left-radius: 80px;
+border-bottom-right-radius: 80px;
+}
+#hh{
+color: rgb(255, 255, 255);
+font-family: monospace;
+position: absolute;
+font-size: 150%;
+top:10%;
+height: 5%;
+left:43%;
+}
+#add{
+position: fixed;
+background: #009dff;
+color: #fff;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+padding-right: 25px;
+width: 2%;
+height: 3%;
+border-radius: 50%;
+font-family: monospace;
+top:85%;
+right:5%;
+border: solid 1px rgb(255, 255, 255);
+}
+#plus{
+position: absolute;
+top:-25%;
+left:35%;
+font-size: 300%;
+}
+#su{
+position:absolute;
+width:85%;
+height: 100%;
+top:15%;
+left:8.25%;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+visibility: hidden;
+}
+#su.vis{
+visibility: visible;
+}
+#bglol{
+top: 0%;
+left:0%;
+position: absolute;
+width: 100%;
+height: 100%;
+background: linear-gradient(to right, deepskyblue, rgb(24, 132, 168));
+}
+#bglol.hide{
+visibility: hidden;
+}
+#ll{
+background-color:  rgb(228, 226, 226);
+color: rgb(36, 36, 36);
+font-family: monospace;
+font-size: 200%;
+position: fixed;
+width: 10%;
+height:5%;
+border-radius: 30px;
+left:42.5%;
+border:solid 1px black;
+}
+#adding{
+position:absolute;
+background-color: #1f1f1f;
+width:100%;
+height: 100%;
+left:0%;
+top:0%;
+overflow:hidden;
+visibility: hidden;
+}
+#adding.show{
+visibility: visible;
+}
+#bluebar{
+width:0.5%;
+height:100%;
+top:0%;
+left:0%;
+position: absolute;
+background-color: #009dff;
+}
+#h1d{
+font-family: monospace;
+font-size: 300%;
+position:absolute;
+color: rgb(245, 239, 228);
+top:1%;
+left:35%;
+border-bottom: solid 2px rgba(0, 183, 255, 0.8);
+}
+#parti{
+caret-color: rgb(0, 110, 255);
+position: absolute;
+top:15%;
+left:40%;
+width:50%;
+height:100%;
+color:white;
+font-family: monospace;
+}
+#testoins{
+font-size: 160%;
+position:absolute;
+border-bottom: solid 1.5px rgb(0, 98, 255);
+}
+#testoins1{
+position:absolute;
+font-size: 160%;
+top:10%;
+border-bottom: solid 1.5px rgb(0, 98, 255);
+}
+#inputs1{
+position: absolute;
+width:30%;
+top:7%;
+border: solid 2px rgb(0, 132, 255);
+height: 3%;
+font-size: 110%;
+}
+#inputs{
+position: absolute;
+width:30%;
+top:17%;
+border: solid 2px rgb(0, 132, 255);
+height: 3%;
+font-size: 110%;
+}
+#btns{
+position: absolute;
+width:31%;
+top:22%;
+border: solid 2px rgb(0, 132, 255);
+height: 3%;
+font-size: 110%;
+border-radius: 20px;
+}
+#conf{
+visibility: hidden;
+}
+#dentrotext{
+position: absolute;
+font-size: 200%;
+top:10%;
+}
+#conf.no{
+position:absolute;
+top:0%;
+left:0%;
+width:100%;
+height:6%;
+background-color: rgb(41, 128, 41);
+border-bottom: solid 1px #1f1f1f;
+visibility: hidden;
+animation: apertura 2s;
+color: #fff;
+font-family: monospace;
+} 
+#pageint{
+opacity:unset;
+}
+#pageint.car{
+opacity: 0.12;
+animation: lll 1s;
+}
+@keyframes lll {
+from{opacity: 1;}
+to{opacity: 0.12;}
+}
+@keyframes apertura{
+from{visibility: visible; top:-11%;}
+to{visibility: visible; top:0%}
+}
+#p2{
+font-size: 200%;
+position: absolute;
+left:40%;
+top:1%;
+}
+#elements{
+position: absolute;
+top:28%;
+left:40%;
+width:90%;
+height:40%;
+visibility: hidden;
+}
+#elements.show{
+visibility: visible;
+}
+#imgg{
+width:15%;
+position: absolute;
+left:0%;
+height:65%;
+}
+#h111{
+font-size: 300%;
+color:white;
+font-family: monospace;
+position: absolute;
+top:60%;
+left:-6%;
+}
+#p111{
+position: absolute;
+top:85%;
+font-size: 200%;
+color: #fff;
+font-family: monospace;
+left: -8%;
+}
+#testogg{
+position:absolute;
+font-size: 120%;
+left:5%;
+}
+#scad{
+position: absolute;
+left:5%;
+}
+#suggeritore{
+border: solid 1px rgb(0, 110, 255);
+font-family: monospace;
+font-size: 120%;
+position: absolute;
+border-radius: 30px;
+top:27%;
+left:4%;
+}
+#fralt{
+position:absolute;
+width:4%;
+height: 30%;
+left:1%;
+}
+#menulat{
+position: absolute;
+width:40%;
+height: 1%;
+top:0%;
+left:0%;
+background-color: #1f1f1f;
+border-right:solid 5px rgb(40, 102, 200);
+padding: 25px 25px 25px 25px;
+border-bottom-right-radius: 100px;
+visibility: hidden;
+}
+#menulat.nascosto{
+visibility: visible;
+height:94.65%;
+animation: lateral 1s;
+}
+@keyframes lateral {
+from{left:-90%}
+to{left:0%;}
+}
+#imgine{
+position: absolute;
+background-color: rgb(22, 180, 228);
+width:30%;
+height: 20%;
+border-radius: 50%;
+left:22%;
+top:1.5%;
+border: solid 1px white;
+border-bottom-right-radius: 20px;
+}
+#base{
+background-color: rgb(225, 241, 2);
+position: absolute;
+width: 35%;
+height: 35%;
+border-radius: 50%;
+left:30%;
+top:20%;
+}
+#base.anima{
+animation: caricamentolol 3s;
+}
+#exit{
+position: absolute;
+top:2.5%;
+left:80%;
+}
+@keyframes caricamentolol {
+from{left:0%;}
+to{left:30%;}
+}
+#welcometxt{
+color: #fff;
+font-family: monospace;
+position: absolute;
+font-size: 510%;
+top:20%;
+left:17%;
+border-bottom:solid 1px rgba(0, 195, 255, 0.842);
+}
+#nomecla{
+background-color: #1f1f1f;
+border:solid 1px #1f1f1f;
+border-radius: 30px;
+position: absolute;
+top:35%;
+left:20%;
+width:60%;
+height: 5%;
+color: #fff;
+font-size: 510%;
+font-family: monospace;
+}
+#exit{
+position: absolute;
+width:99%;
+height:99%;
+top:70%;
+left:30%;
+}
+#esci{
+position: absolute;
+width: 15%;
+height: 15%;
+}
+#cambianome{
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+border: solid 1px rgb(2, 234, 255);
+font-family: monospace;
+position: absolute;
+top:45%;
+left:20%;
+width:30%;
+height: 5%;
+font-size: 150%;
+border-radius: 30px;
+}
+/* Vedo ti diverti a scavare nel codice */
+#scadutissimi{
+background-color: #fff;
+position: absolute;
+width:60%;
+height: 70%;
+left:20%;
+top:15%;
+}
+#avvisa{
+position: absolute;
+width: 50%;
+height: 50%;
+background-color: rgb(226, 224, 224);
+border: solid 1px black;
+top:25%;
+left:25%;
+visibility: hidden;
+}
+#avvisa.non{
+visibility: visible;
+}
+#alto{
+background-color: #009dff;
+position: absolute;
+width:5%;
+height:6%;
+left:95%;
+}
+/* altcibo è id per cibo triste */
+#altcibo{
+width:50%;
+height: 60%;
+left:25%;
+position: absolute;
+}
+#prodscad{
+font-family: monospace;
+font-size: 300%;
+position: absolute;
+top:65%;
+left:3%;
+}
+#prodotti{
+font-family: monospace;
+}
+/* codice reactive */
+
+/* Mobile */
+@media (max-width:450px) {
+.start{
+overflow: hidden;
+color:black;
+position: absolute;
+top:35%;
+left:18%;
+}
+#altcibo{
+width:80%;
+height: 44%;
+left:8%;
+}
+#prodscad{
+top:50%;
+font-size: 150%;
+}
+#cambianome{
+width:60%;
+left:17%;
+}
+#esci{
+width: 35%;
+height: 15%;
+}
+#fralt{
+width:12%;
+height: 40%;
+left:2%;
+}
+#p2{
+font-size: 100%;
+position: absolute;
+left:20%;
+top:0%;
+}
+#h1d{
+font-size: 160%;
+left:8%;
+}
+#btns{
+height:5%;
+width: 40%;
+}
+#parti{
+top:10%;
+left: 29%;
+}
+#inputs1{
+top:10%;
+width:100%;
+}
+#inputs{
+top:26%;
+width:100%;
+}
+#btns{
+top:35%;
+}
+#testoins1{
+top:12.25%;
+}
+#bluebar{
+width:1%;
+}
+#add{
+top:85%;
+right:5%;
+padding-top: 10px;
+}
+#plus{
+top:-50%;
+left:35%;
+}
+#hh{
+top:11%;
+left:20%;
+}
+#su{
+top:15%;
+left:8%;
+}
+#ll{
+left:32%;
+font-size:250%;
+width:33%;
+height: 6%;
+}
+#elements{
+left:0%;
+height: 30%;
+}
+#imgg{
+width:60%;
+height:65%;
+left:25%;
+}
+#h111{
+font-size: 135%;
+position:absolute;
+left:20%;
+}
+#p111{
+top:10%;
+position: absolute;
+font-size: 98%;
+top:90%;
+left:20%;
+}
+#suggeritore{
+top: 43%;
+left:3.1%;
+}
+#menulat{
+width:50%;
+height:92.2%;
+visibility: hidden;
+}
+#menulat.nascosto{
+visibility: visible;
+}
+#imgine{
+width:50%;
+}
+#welcometxt{
+font-size: 200%;
+}
+#nomecla{
+font-size: 200%;
+}
+}
