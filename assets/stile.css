@@ -9,7 +9,9 @@
 .wrapper{
 width:100%;
 }
-
+#body>button{
+    cursor: pointer;
+}
 #under{
 overflow: hidden;
 }
@@ -277,7 +279,10 @@ font-size: 120%;
 position: absolute;
 border-radius: 30px;
 top:27%;
-left:4%;
+display:flex;
+text-align: center;
+text-align: center;
+cursor: pointer;
 }
 #fralt{
 position:absolute;
